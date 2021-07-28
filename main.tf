@@ -5,7 +5,7 @@ provider "azurerm" {
  
 
 locals{
-tags = {"deployment-environment" = "QA", "env"="dev"}
+tags = ["deployment-environment" = "QA", "env"="dev"]
 }
 
 
