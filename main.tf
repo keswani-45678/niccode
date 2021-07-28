@@ -1,13 +1,11 @@
-
 provider "azurerm" {
   features {}
 }
 
  
 
-locals
-{
-tags = {    "deployment-environment" = "QA", "env"="dev"}
+locals{
+tags = {"deployment-environment" = "QA", "env"="dev"}
 }
 
 
