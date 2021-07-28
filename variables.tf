@@ -1,5 +1,5 @@
 variable "tagsvalue" {
 
-default = {"costcenter"="1002"}
+default = {"costcenteer"="1002"}
 
 }
