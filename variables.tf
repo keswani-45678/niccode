@@ -1,8 +1,7 @@
 variable "tagsvalue" {
 
 default = [
-
-    "costcenter"="1002"
+   {"costcenter"="1002"}
 ]
 
 }
