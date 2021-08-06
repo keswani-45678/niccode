@@ -14,7 +14,7 @@ terraform {
 }
 
 resource "azurerm_resource_group" "test1" {
-  name     = "resgrp"
+  name     = "resgrp1"
   location = "West Europe"
  
 }
