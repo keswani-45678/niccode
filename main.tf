@@ -8,7 +8,7 @@ terraform {
     organization = "terraformrepo"
 
     workspaces {
-      name = "testdemo"
+      name = "apiworkspace"
     }
   }
 }
